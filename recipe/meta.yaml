@@ -1,5 +1,5 @@
 {% set name = "PyCorruptor" %}
-{% set version = "0.0.4" %}
+{% set version = "0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/PyCorruptor/archive/v{{ version }}.tar.gz
-  sha256: 06c41c5410707d1a8a5e5f4614c770168e1e36eccd471a82ceb03784ff5ed041
+  sha256: 847da2b431812a0d48e53c4f99c5794923ee7406e93b326e4c0e86fcd20b6714
 
 build:
   noarch: python
