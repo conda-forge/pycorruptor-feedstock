@@ -1,22 +1,23 @@
 About pygrinder-feedstock
-===========================
+=========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygrinder-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycorruptor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/WenjieDu/PyGrinder
 
 Package license: GPL-3.0-only
 
-Summary: A Python Toolbox for Data Corruption
+Summary: a Python toolkit for grinding data beans into the incomplete
 
 Development: https://github.com/WenjieDu/PyGrinder
 
 Documentation: https://pygrinder.readthedocs.io
 
-In data analysis and modeling, sometimes we may need to corrupt the original data to achieve our goal,
-for instance, evaluating models' ability to reconstruct corrupted data or assessing the model's performance
-on only partially-observed data. PyGrinder is such a tool to help you corrupt your data, which provides
-several patterns to create missing values in the given data.
+PyGrinder is a part of PyPOTS project (a Python toolbox for data mining on Partially-Observed Time Series),
+was called PyCorruptor and separated from PyPOTS for decoupling missingness-creating functionalities from learning algorithms.
+In data analysis and modeling, sometimes we may need to corrupt the original data to achieve our goal, for instance,
+evaluating models' ability to reconstruct corrupted data or assessing the model's performance on only partially-observed data.
+PyGrinder is such a tool to help you corrupt your data, which provides several patterns to create missing values in the given data.
 
 
 Current build status
@@ -26,7 +27,7 @@ Current build status
 <table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18929&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygrinder-feedstock?branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycorruptor-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -40,7 +41,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pygrinder-green.svg)](https://anaconda.org/conda-forge/pygrinder) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygrinder.svg)](https://anaconda.org/conda-forge/pygrinder) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygrinder.svg)](https://anaconda.org/conda-forge/pygrinder) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygrinder.svg)](https://anaconda.org/conda-forge/pygrinder) |
 
 Installing pygrinder
-======================
+====================
 
 Installing `pygrinder` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
@@ -129,7 +130,7 @@ Terminology
 
 
 Updating pygrinder-feedstock
-==============================
+============================
 
 If you would like to improve the pygrinder recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
