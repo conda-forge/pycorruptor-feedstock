@@ -23,7 +23,7 @@ requirements:
     - numpy
     - scikit-learn
     - pandas
-    - torch
+    - pytorch
 
 test:
   imports:
