@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycorruptor-fee
 
 Home: https://github.com/WenjieDu/PyGrinder
 
-Package license: GPL-3.0-only
+Package license: BSD-3-Clause
 
 Summary: a Python toolkit for grinding data beans into the incomplete
 
