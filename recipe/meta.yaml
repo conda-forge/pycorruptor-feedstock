@@ -33,7 +33,7 @@ test:
     - numpy
     - scikit-learn
     - pandas
-    - torch
+    - pytorch
   commands:
     - pip check
 
