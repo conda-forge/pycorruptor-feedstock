@@ -1,5 +1,5 @@
 {% set name = "PyGrinder" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/PyGrinder/archive/v{{ version }}.tar.gz
-  sha256: 41d0a82169c04e8cd956e29469251592dd2fb9574475247c3a25a0a2c09a048b
+  sha256: 028c783341d6bff3a61559de732cde8deb11d56d02bfba04fc0df85b3e5d6f34
 
 build:
   noarch: python
