@@ -23,6 +23,7 @@ requirements:
     - pandas
     - pytorch
     - tsdb
+    - pyarrow
   run:
     - python >=3.6
 
@@ -36,6 +37,7 @@ test:
     - pandas
     - pytorch
     - tsdb
+    - pyarrow
   commands:
     - pip check
 
