@@ -18,26 +18,20 @@ requirements:
   host:
     - python >=3.6
     - pip
+  run:
+    - python >=3.6
     - numpy
     - scikit-learn
     - pandas
     - pytorch
     - tsdb
     - pyarrow
-  run:
-    - python >=3.6
 
 test:
   imports:
     - pygrinder
   requires:
     - pip
-    - numpy
-    - scikit-learn
-    - pandas
-    - pytorch
-    - tsdb
-    - pyarrow
   commands:
     - pip check
 
