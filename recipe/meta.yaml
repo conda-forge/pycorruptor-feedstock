@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/PyGrinder/archive/v{{ version }}.tar.gz
-  sha256: 47a688a05994f4515f0c9ff6f80fee5d5575f88e859e9338be8ac4e73f4b197e
+  sha256: e628589764c67a913cee1a859912cc46de194010182126840c7d7c9dcf1067fe
 
 build:
   noarch: python
