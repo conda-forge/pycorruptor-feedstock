@@ -24,8 +24,8 @@ requirements:
     - scikit-learn
     - pandas
     - pyarrow
-    - pytorch
-    - tsdb
+    - pytorch >=1.10
+    - tsdb >=0.6.1
 
 test:
   imports:
