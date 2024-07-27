@@ -1,5 +1,5 @@
 {% set name = "PyGrinder" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/PyGrinder/archive/v{{ version }}.tar.gz
-  sha256: 61956372bd9b26edfcb754ffef9574ea795dd33fed401ba79e59b477eaceed88
+  sha256: 47a688a05994f4515f0c9ff6f80fee5d5575f88e859e9338be8ac4e73f4b197e
 
 build:
   noarch: python
@@ -16,30 +16,20 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
+  run:
+    - python >=3.8
     - numpy
     - scikit-learn
     - pandas
     - pyarrow
     - pytorch
     - tsdb
-  run:
-    - python >=3.6
 
 test:
   imports:
     - pygrinder
-  requires:
-    - pip
-    - numpy
-    - scikit-learn
-    - pandas
-    - pyarrow
-    - pytorch
-    - tsdb
-  commands:
-    - pip check
 
 about:
   home: https://github.com/WenjieDu/PyGrinder
